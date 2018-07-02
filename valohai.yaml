@@ -1,0 +1,8 @@
+---
+
+- step:
+    name: important
+    image: python:3.6
+    command: 
+    - pip install requests
+    - python get-image.py
